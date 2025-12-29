@@ -842,3 +842,188 @@ img {
     animation: none;
   }
 }
+
+.simple-page {
+  background: #f8f3ea;
+  color: var(--ink);
+}
+
+.simple-header {
+  padding: 48px 8vw 28px;
+  border-bottom: 1px solid rgba(23, 22, 22, 0.08);
+}
+
+.simple-nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.simple-logo {
+  font-family: "Bebas Neue", "Oswald", "Franklin Gothic Medium", "Impact", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+.simple-nav-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+}
+
+.simple-nav-links a {
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.simple-nav-links a:hover {
+  opacity: 1;
+}
+
+.simple-intro {
+  max-width: 720px;
+  margin-top: 32px;
+}
+
+.simple-kicker {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  color: var(--scarlet);
+  margin-bottom: 12px;
+}
+
+.simple-intro h1 {
+  font-family: "Cormorant Garamond", "Garamond", "Times New Roman", serif;
+  font-size: clamp(2.2rem, 3vw + 1rem, 3.4rem);
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.simple-main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 32px 8vw 80px;
+}
+
+.simple-page p {
+  margin: 0 0 12px;
+}
+
+.simple-section {
+  padding: 28px 0;
+  border-top: 1px solid rgba(23, 22, 22, 0.08);
+}
+
+.simple-section:first-of-type {
+  border-top: none;
+}
+
+.simple-section h2 {
+  font-family: "Cormorant Garamond", "Garamond", "Times New Roman", serif;
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
+.simple-section h3 {
+  font-size: 1.3rem;
+  margin: 18px 0 8px;
+}
+
+.simple-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: grid;
+  gap: 12px;
+}
+
+.simple-list.compact {
+  gap: 8px;
+}
+
+.simple-list li strong {
+  font-weight: 600;
+}
+
+.simple-steps {
+  padding-left: 20px;
+  margin: 12px 0 0;
+  display: grid;
+  gap: 8px;
+}
+
+.simple-callout {
+  margin-top: 18px;
+  padding: 16px 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(23, 22, 22, 0.12);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.simple-cta {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(23, 22, 22, 0.7);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Bebas Neue", "Oswald", "Franklin Gothic Medium", "Impact", sans-serif;
+}
+
+.simple-faq details {
+  padding: 10px 0;
+  border-top: 1px solid rgba(23, 22, 22, 0.08);
+}
+
+.simple-faq details:first-of-type {
+  border-top: none;
+}
+
+.simple-faq summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.simple-footer {
+  border-top: 1px solid rgba(23, 22, 22, 0.08);
+  padding: 32px 8vw 50px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.simple-footer-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.simple-footer h3 {
+  font-family: "Bebas Neue", "Oswald", "Franklin Gothic Medium", "Impact", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.simple-footer-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 720px) {
+  .simple-header {
+    padding: 36px 6vw 22px;
+  }
+
+  .simple-main {
+    padding: 28px 6vw 60px;
+  }
+}
