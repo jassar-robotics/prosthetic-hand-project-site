@@ -590,6 +590,38 @@ img {
   object-fit: cover;
 }
 
+.stage-gallery--single img.stage-image-small {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.stage-card--stage-0 .stage-gallery img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.stage-card--stage-0 .stage-media-below img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.stage-image-small {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.stage-card--stage-0 .stage-gallery img.stage-image-small {
+  width: 55%;
+}
+
+.stage-media-below {
+  grid-column: 1 / -1;
+}
+
+.stage-media-below img {
+  width: 100%;
+}
+
 .gallery-wide {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 }
