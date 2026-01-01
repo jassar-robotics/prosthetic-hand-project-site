@@ -542,23 +542,6 @@ img {
   font-size: 0.7rem;
 }
 
-.footer {
-  padding: 40px 8vw 60px;
-  background: #0f0f12;
-  color: #fdf6eb;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  justify-content: space-between;
-}
-
-.footer-links {
-  display: flex;
-  gap: 18px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 .reveal {
   opacity: 0;
   transform: translateY(18px);

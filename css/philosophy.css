@@ -135,41 +135,8 @@ li {
   color: var(--muted);
 }
 
-.page-footer {
-  margin-top: 48px;
-  padding-top: 20px;
-  border-top: 1px solid var(--border);
-  color: var(--muted);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.page-footer p {
-  margin: 6px 0 0;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.footer-links a {
-  color: var(--muted);
-}
-
-.footer-links a:hover {
-  color: var(--accent);
-}
-
 @media (max-width: 700px) {
   main.wiki {
     padding: 48px 20px 64px;
-  }
-
-  .page-footer {
-    flex-direction: column;
   }
 }
