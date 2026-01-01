@@ -563,6 +563,21 @@ img {
   font-size: 0.95rem;
 }
 
+.stage-citation {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: var(--slate);
+  line-height: 1.5;
+}
+
+.stage-citation p + p {
+  margin-top: 8px;
+}
+
+.stage-citation a {
+  text-decoration: underline;
+}
+
 .stage-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
