@@ -1,0 +1,35 @@
+body.dark-index {
+  background: #0b0e12;
+  color: #f5f6f7;
+}
+
+body.dark-index .ambient-grid {
+  display: none;
+}
+
+body.dark-index .ambient-glow {
+  display: none;
+}
+
+body.dark-index .mission {
+  background: linear-gradient(135deg, #0b0e12 0%, rgba(11, 14, 18, 0.96) 100%);
+}
+
+body.dark-index .stages {
+  background: linear-gradient(145deg, #0b0e12 0%, rgba(10, 13, 18, 0.96) 100%);
+}
+
+body.dark-index .contribute {
+  background: linear-gradient(140deg, #0b0e12 0%, #0c0f15 100%);
+}
+
+body.dark-index .contribution-wall {
+  background: linear-gradient(135deg, #0b0e12 0%, rgba(10, 13, 18, 0.95) 100%);
+}
+
+body.dark-index .mission-card,
+body.dark-index .stage-card,
+body.dark-index .protocol,
+body.dark-index .contribution-card {
+  color: var(--ink);
+}
