@@ -156,6 +156,57 @@ li {
   margin-top: 4px;
 }
 
+.specs-more {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.specs-more summary {
+  cursor: pointer;
+  font-family: var(--heading-font);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.specs-more summary::marker {
+  color: var(--accent);
+}
+
+.specs-more__body {
+  margin-top: 12px;
+}
+
+.specs-more h3 {
+  margin: 16px 0 8px;
+  font-family: var(--heading-font);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.95rem;
+}
+
+.specs-more ul {
+  margin-top: 12px;
+}
+
+.specs-more p {
+  margin: 0 0 12px;
+  color: var(--muted);
+}
+
+.callout-highlight {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(242, 169, 59, 0.45);
+  background: rgba(242, 169, 59, 0.12);
+  color: var(--text);
+}
+
 .page-footer {
   margin-top: 48px;
   padding-top: 20px;

@@ -11,5 +11,8 @@ Static HTML/CSS/JS site for the prosthetic hand build log and project status boa
 - `partials/`: HTML fragments loaded at runtime (via `data-include`).
 - `assets/images/`: Image library organized by usage (homepage, stages, contributors, status board).
 
-## Run
-Open `index.html` or `board.html` in a browser. No build step required.
+
+## Run (local)
+Serve the site using a simple HTTP server (required for fetch() and runtime includes):
+    python3 -m http.server 8000
+

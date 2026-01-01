@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electronic Components | Prosthetic Hand</title>
+  <link rel="stylesheet" href="css/docs.css?v=1.0">
+  <link rel="stylesheet" href="css/headings.css?v=1.0">
+  <link rel="stylesheet" href="css/nav-docs.css?v=1.0">
+</head>
+<body>
+  <div data-include="partials/sidebar-nav.html"></div>
+
+  <main class="wiki">
+    <header class="page-header" id="top">
+      <p class="eyebrow">Electronic Components</p>
+      <h1 class="heading heading--size-title heading--space-lg">Current electronics inventory for the prosthetic hand build.</h1>
+      <p class="lede">Tracking the actuators and specs used in the current prototype so sourcing stays fast.</p>
+    </header>
+
+    <section id="current-actuator">
+      <h2 class="heading heading--size-docs heading--space-sm">Current actuator</h2>
+      <p>We are using the FeeTech SCS0009, 2.3KG Serial Bus Servo (6V). Quantity: 8.</p>
+      <ul>
+        <li><strong>Manufacturer:</strong> FeeTech</li>
+        <li><strong>Model:</strong> SCS0009</li>
+        <li><strong>Type:</strong> Serial bus servo (TTL)</li>
+        <li><strong>Quantity:</strong> 8 units in the current build</li>
+      </ul>
+      <details class="specs-more">
+        <summary>More specs</summary>
+        <div class="specs-more__body">
+          <h3 class="heading heading--size-sm heading--space-xs">Servo specifications</h3>
+          <ul>
+            <li><strong>Working voltage:</strong> 4.8 to 7.4 V</li>
+            <li><strong>Stall torque:</strong> 2.3 kg*cm at 6 V</li>
+            <li><strong>No-load speed:</strong> 0.07 sec/60 deg (143 RPM) at 6 V</li>
+            <li><strong>Rotation angle:</strong> 180 deg</li>
+            <li><strong>Size:</strong> 23.2 x 12 x 25.5 mm (0.91 x 0.47 x 1 in)</li>
+            <li><strong>Weight:</strong> 12.5 g +/- 0.2</li>
+          </ul>
+
+          <h3 class="heading heading--size-sm heading--space-xs">More servo specs</h3>
+          <ul>
+            <li><strong>Working temperature:</strong> -15 to 70 C</li>
+            <li><strong>Static current:</strong> 6 mA at 6 V</li>
+            <li><strong>No-load current:</strong> 150 mA at 6 V</li>
+            <li><strong>Stall current:</strong> 1000 mA at 6 V</li>
+            <li><strong>Rated torque:</strong> 0.76 kg*cm at 6 V</li>
+            <li><strong>Sensor:</strong> Potentiometer</li>
+            <li><strong>Baud rate:</strong> 38400 to 1000000 bps (modifiable)</li>
+            <li><strong>Output shaft:</strong> 20T (4.8 mm)</li>
+            <li><strong>Control signal:</strong> TTL communication level</li>
+          </ul>
+
+          <h3 class="heading heading--size-sm heading--space-xs">Source link</h3>
+          <p>Full product details and purchase info:</p>
+          <p>
+            <a class="link-cta" href="https://abra-electronics.com/electromechanical/motors/servo-motors-feetech/scs0009.html" target="_blank" rel="noopener">Abra Electronics - SCS0009, 2.3KG Serial Bus Servo (6V)</a>
+          </p>
+        </div>
+      </details>
+      <p class="callout-highlight"><strong>Only the servos are locked in so far; we still need help finalizing the electronic circuit. If you can share schematics, wiring guidance, or parts recommendations, we would love your input.</strong></p>
+    </section>
+
+    <footer class="page-footer">
+      <div>
+        <strong>Jassar Robotics</strong>
+        <p>Electronics parts are documented here so contributors can source fast and keep builds consistent.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#top">Back to top</a>
+        <a href="index.html">Main site</a>
+        <a href="docs.html">Docs</a>
+        <a href="board.html">Status board</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
