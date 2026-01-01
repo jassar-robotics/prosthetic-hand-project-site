@@ -1,0 +1,95 @@
+:root {
+  --heading-font-display: "Bebas Neue", "Oswald", "Franklin Gothic Medium", "Impact", sans-serif;
+  --heading-font-serif: "Cormorant Garamond", "Garamond", "Times New Roman", serif;
+}
+
+.heading {
+  --heading-font: var(--heading-font-display);
+  --heading-letter-spacing: 1px;
+  --heading-size: 1.4rem;
+  --heading-line-height: 1.1;
+  --heading-margin: 0 0 8px;
+  font-family: var(--heading-font);
+  font-size: var(--heading-size);
+  line-height: var(--heading-line-height);
+  letter-spacing: var(--heading-letter-spacing);
+  margin: var(--heading-margin);
+}
+
+.heading--serif {
+  --heading-font: var(--heading-font-serif);
+  --heading-letter-spacing: 0;
+}
+
+.heading--size-hero {
+  --heading-size: clamp(2.8rem, 3.2vw + 2rem, 4.6rem);
+  --heading-line-height: 1.05;
+}
+
+.heading--size-title {
+  --heading-size: clamp(2.2rem, 3vw + 1rem, 3.4rem);
+}
+
+.heading--size-board {
+  --heading-size: clamp(2.2rem, 2.6vw + 1.5rem, 3.4rem);
+}
+
+.heading--size-section {
+  --heading-size: clamp(2.2rem, 2vw + 1.6rem, 3.2rem);
+}
+
+.heading--size-panel {
+  --heading-size: 1.8rem;
+}
+
+.heading--size-stage {
+  --heading-size: 2rem;
+}
+
+.heading--size-docs {
+  --heading-size: 1.5rem;
+}
+
+.heading--size-sm {
+  --heading-size: 1.4rem;
+}
+
+.heading--size-xs {
+  --heading-size: 1.3rem;
+}
+
+.heading--size-footer {
+  --heading-size: 1.2rem;
+}
+
+.heading--space-hero {
+  --heading-margin: 16px 0 20px;
+}
+
+.heading--space-lg {
+  --heading-margin: 0 0 16px;
+}
+
+.heading--space-md {
+  --heading-margin: 0 0 12px;
+}
+
+.heading--space-sm {
+  --heading-margin: 0 0 8px;
+}
+
+.heading--space-xs {
+  --heading-margin: 0 0 6px;
+}
+
+.heading--space-xxs {
+  --heading-margin: 0 0 4px;
+}
+
+.heading--space-stack {
+  --heading-margin: 18px 0 8px;
+}
+
+.heading--inverse {
+  color: #fff;
+}

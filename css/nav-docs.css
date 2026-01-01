@@ -304,14 +304,6 @@ body {
   min-width: 200px;
 }
 
-.docs-hero-text h3 {
-  font-family: "Bebas Neue", "Oswald", "Franklin Gothic Medium", "Impact", sans-serif;
-  color: #fff;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  margin-bottom: 4px;
-}
-
 .docs-hero-text p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.95rem;
@@ -358,13 +350,6 @@ body {
 .doc-card-icon {
   font-size: 2rem;
   margin-bottom: 12px;
-}
-
-.doc-card h3 {
-  font-family: "Bebas Neue", "Oswald", "Franklin Gothic Medium", "Impact", sans-serif;
-  letter-spacing: 1px;
-  font-size: 1.3rem;
-  margin-bottom: 8px;
 }
 
 .doc-card p {

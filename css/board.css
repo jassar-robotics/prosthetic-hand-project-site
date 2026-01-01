@@ -147,13 +147,6 @@
   margin-bottom: 8px;
 }
 
-.board-heading h1 {
-  font-family: "Bebas Neue", "Oswald", "Franklin Gothic Medium", "Impact", sans-serif;
-  letter-spacing: 1px;
-  font-size: clamp(2.2rem, 2.6vw + 1.5rem, 3.4rem);
-  margin-bottom: 8px;
-}
-
 .board-subtitle {
   font-size: 1rem;
   color: rgba(23, 22, 22, 0.7);
